@@ -27,6 +27,9 @@ public class ConcatenateTwoArrays {
 
         int length = myArray1.length + myArray2.length;
 
+        String myString = "KhaNguyen";
+        int myLength = myString.length();
+
         int[] newResult = new int[length];
         int pos = 0;
         for (int element : myArray1) {

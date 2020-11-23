@@ -43,10 +43,12 @@ public class JavaArrayExercise {
 //
 //        System.out.println("Sum = " + sum);
 //        System.out.println("Average = " + average);
-        arrayCalculation();
+        // arrayCalculation();
+        JavaArrayExercise kha = new JavaArrayExercise();
+        kha.arrayCalculation();
     }
 
-    public static void arrayCalculation(){
+    public void arrayCalculation(){
         Scanner userInput = new Scanner(System.in);
         System.out.println("Please enter the length of the array: ");
         int arrayLength = userInput.nextInt();
@@ -89,4 +91,5 @@ public class JavaArrayExercise {
             System.out.println("Sum of all even numbers in the array is: " + sum);
         }
     }
+
 }

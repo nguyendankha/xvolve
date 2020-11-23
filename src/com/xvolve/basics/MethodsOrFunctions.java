@@ -2,10 +2,10 @@ package com.xvolve.basics;
 
 public class MethodsOrFunctions {
 	// create a method
-	public int addNumbers(int a, int b) {
-		int sum = a + b;
+	public static int addNumbers(int a, int b) {
+		//int sum = a + b;
 		// return value
-		return sum;
+		return a + b;
 	}
 
 	public static void main(String[] args) {
@@ -14,10 +14,11 @@ public class MethodsOrFunctions {
 		int num2 = 15;
 
 		// create an object of Main
-		MethodsOrFunctions obj = new MethodsOrFunctions();
+		// MethodsOrFunctions obj = new MethodsOrFunctions();
 		// calling method
-		int result = obj.addNumbers(num1, num2);
+		int result = addNumbers(num1, num2);
 		System.out.println("Sum is: " + result);
+
 	}
 
 }
