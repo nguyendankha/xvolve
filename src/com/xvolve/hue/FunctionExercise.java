@@ -29,6 +29,7 @@ public class FunctionExercise {
     		 System.out.println("Nhap vao diem cua hoc sinh thu " + i);
     		 diem[i] = scanner.nextInt();
     	 }
+    	 
     	 for(int i = 0; i < soLuongHocSinh; i++) {
     		 if(diem[i] > 60) {
     			 System.out.println("Hoc Sinh co diem cao hon 60 la: " + tenHocSinh[i]);;
