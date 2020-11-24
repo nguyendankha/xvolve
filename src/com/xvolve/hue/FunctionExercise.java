@@ -32,15 +32,16 @@ public class FunctionExercise {
     	 
     	 for(int i = 0; i < soLuongHocSinh; i++) {
     		 if(diem[i] > 60) {
-    			 System.out.println("Hoc Sinh co diem cao hon 60 la: " + tenHocSinh[i]);;
+    			 System.out.println("Hoc Sinh co diem cao hon 60 la: " + tenHocSinh[i]);
     		 }
     	 }
-//     }
-//     public static void main(String[] args) {
-//    	 thongTinHocSinh();
-//    	 
-//     }
      }
+    
+ public static void main(String[] args) {
+	 String[] hotenHocSinh = null;
+	 int[] diem = null;
+    	 thongTinHocSinh(hotenHocSinh, diem); 
+ }
 }
 
 
