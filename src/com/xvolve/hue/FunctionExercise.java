@@ -24,7 +24,7 @@ public class FunctionExercise {
     	 
     	 for(int i = 0; i < soLuongHocSinh; i++) {
     		 System.out.println("Nhap vao ho ten hoc sinh thu " + i);
-    		 tenHocSinh[i] = scanner.nextLine();
+    		 tenHocSinh[i] = scanner.next();
     		 
     		 System.out.println("Nhap vao diem cua hoc sinh thu " + i);
     		 diem[i] = scanner.nextInt();
@@ -40,7 +40,7 @@ public class FunctionExercise {
  public static void main(String[] args) {
 	 String[] hotenHocSinh = null;
 	 int[] diem = null;
-    	 thongTinHocSinh(hotenHocSinh, diem); 
+	 thongTinHocSinh(hotenHocSinh, diem);
  }
 }
 
